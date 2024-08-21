@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 90%;
+    margin: 0px auto;
+    height: 70px;
+}
+.logo {
+    display: inline-block;
+    height: 80%;
+    margin-top: 8px;
+}
+
+.carrito-menu {
+    width: 20%;
+    height: 100%;
+    float: right;
+    padding: 15px;
+    align-items: center;
+}
+
+.carrito {
+    width: 40px;
+    float: right;
+    position: relative;
+    right: 50px;
+}
+
+span {
+    float: right;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: relative;
+    left: 30px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: red;
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    height: 60px;
+    margin-top: 40px;
+    padding: 20px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

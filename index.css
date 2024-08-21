@@ -1,0 +1,44 @@
+#productod-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjeta-producto img {
+    width: 100%;
+}
+
+#productod-container {
+    width: 80%;
+    margin: 50px auto;
+    
+}
+
+.tarjeta-producto {
+    background-color: pink;
+    width: 22%;
+    float: left;
+    margin: 18px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tarjeta-producto:hover {
+    background-color: transparent;
+    outline: red 2px solid;
+}
+
+.tarjeta-producto div img {
+    width: 100%;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+}
