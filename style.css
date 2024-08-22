@@ -30,7 +30,7 @@ nav {
     right: 50px;
 }
 
-span {
+#cuenta-carrito {
     float: right;
     background-color: red;
     width: 40px;
@@ -60,4 +60,18 @@ footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+.escondido {
+    display: none;
 }

@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito de Compras</title>
+    <title>Ropas Suel - Carrito</title>
     <link rel="stylesheet" href="style.css">
-    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="cart.css">
+    <script src="js/cartService.js" defer></script>
+    <script src="js/cart.js" defer></script>
 </head>
 
 <body>
@@ -19,6 +21,16 @@
             </div>
         </nav>
     </header>
+    <main>
+        <p id="carrito-vacio">Ups, no hay productos en el carrito. <a href="index.html">Agrega algunos</a></p>
+        <section id="productos-container"></section> 
+        <section id="totales">
+            <p>Totales unidades: <span id="unidades">0</span></p>
+            <p>Total precio: $<span id="precio">0</span></p>
+            <button disabled>Comprar</button>
+            <button id="reiniciar">Reinicar carrito</button>
+        </section>
+    </main>
     <footer>
         <p>Creado por <a href="https://www.linkedin.com/feed/">Walter Suel</a></p>
     </footer>
