@@ -13,7 +13,7 @@ function crearTarjetaProductosInicio() {
             const nuevaRopa = document.createElement("div");
             nuevaRopa.classList = "tarjeta-producto"
             nuevaRopa.innerHTML = `
-                <img src = "../img/productos/ropa${producto.id}.jpg">
+                <img src = "./img/productos/ropa${producto.id}.jpg">
                 <h3>${producto.nombre}</h3>
                 <p>${producto.precio}</p>
                 <div>
@@ -72,4 +72,6 @@ function reiniciarCarrito(carrito) {
     localStorage.removeItem("ropas");
     actualizarTotales();
     crearTarjetaProductosInicio();
+    const cuentaCarritoElement = document.getElementById("cuenta-carrito");
+    cuentaCarritoElement.innerText = 0
 }
